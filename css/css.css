@@ -1,0 +1,132 @@
+body,h2,h3,dl,dt,dd,p{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:0;
+	vertical-align:top;  
+}
+body{
+	font-size:12px;
+	font-family:"微软雅黑";
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+	overflow:hidden;
+	visibility:hidden;
+	height:0;
+}
+
+.container{
+	padding:0 29px 26px 31px;
+	width:686px;
+	border:1px solid #bfbfbf;
+	/* box-sizing:border-box; */
+	margin:50px auto;
+}
+.title{
+	height:84px;
+	font-size:20px;
+	font-weight:normal;
+	padding-left:27px;
+	line-height:84px;
+	background:url(../images/logo.fw.png) no-repeat left center;
+	margin-bottom:1px;
+}
+
+/*intro*/
+.intro{
+	margin-bottom:40px;
+}
+.item{
+	width:310px;
+	height:182px;
+	float:left;
+}
+.intro dl:first-child{
+	margin-right:62px;
+}
+.item dt{
+	width:129px;
+	height:180px;
+	border:1px solid #bfbfbf;
+	float:left;
+}
+.item dd{
+	width:160px;
+	height:182px;
+	float:right;
+}
+.container dd h3{
+	height:16px;
+	line-height:16px;
+	font-size:16px;
+	color:#34BFE1;
+	font-weight:normal;
+	margin-bottom:12px;
+}
+.container dd p{
+	height:26px;
+	line-height:26px;
+	font-size:14px;
+	color:#6a6a6a;
+}
+
+.btn {
+	height:30px;
+	margin-top:20px;
+}
+.btn .buy{
+	width:66px;
+	height:26px;
+	display:block;
+	background:#00AED8;
+	padding:1px;
+	margin-right:10px;
+	/* margin-right:4px */
+	float:left;
+}
+.btn .buy span{
+	display:block;
+	width:64px;
+	height:24px;
+	line-height:24px;
+	text-align:center;
+	color:#fff;
+	border:1px solid #6BD2EB;
+}
+.btn .pre{
+	display:block;
+	width:64px;
+	height:24px;
+	line-height: 26px;
+	text-align:center;
+	border:2px solid #00AED8;
+	float:left;
+}
+
+/*------------list---------*/
+.list dl{
+	width:130px;
+	height:174px;
+	float:left;
+	margin-right:55px;
+}
+.list dl:last-of-type{
+	margin:0;
+}
+.list dt{
+	width:130px;
+	height:90px;
+	margin-bottom:8px;
+}
+.list dd h3{
+	height:24px;
+	line-height:24px;
+	margin:0;
+}
